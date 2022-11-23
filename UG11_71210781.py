@@ -60,7 +60,7 @@ class RakBuku():
         return False
 
     def printAll(self):
-        print('====================== List Buku ======================')
+        print("="*20,'List Buku',"="*20)
         for item in self.map:
             if (item is not None) and (item != 'deleted'):
                 print(f'Nama : {str(item[0][1])} <> Jenis :{str(item[0][0])}')
